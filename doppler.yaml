@@ -17,6 +17,9 @@ setup:
   - project: monoweb-web
     config: dev_personal
     path: apps/web
-  - project: monoweb-migrator
+  - project: monoweb-kvittering-backend
     config: dev_personal
-    path: tools/migrator
+    path: apps/kvittering-backend
+  - project: monoweb-kvittering-frontend
+    config: dev_personal
+    path: apps/kvittering-frontend
